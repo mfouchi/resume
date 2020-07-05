@@ -106,6 +106,7 @@
     $(".sidebar-menu").addClass("hidex");
     $(".content-blocks.pop").addClass("showx");
     $(".content-blocks.pop section").load(postUrl);
+
     return false;
   });
 

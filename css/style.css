@@ -606,11 +606,11 @@ h2.about.menu-item:before {
   content: "01";
 }
 
-h2.portfolio.menu-item:before {
+h2.blog.menu-item:before {
   content: "02";
 }
 
-h2.blog.menu-item:before {
+h2.portfolio.menu-item:before {
   content: "03";
 }
 
@@ -2165,14 +2165,14 @@ h4.package {
     left: 702px;
     top: -60px;
   }
-  .portfolio-block {
+  .blog-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 897px;
     top: 179px;
   }
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2215,14 +2215,14 @@ h4.package {
     left: 382px;
     top: -151px;
   }
-  .portfolio-block {
+  .blog-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 577px;
     top: 89px;
   }
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2263,7 +2263,8 @@ h4.package {
     width: 350px;
     height: 300px;
   }
-  .portfolio-block {
+
+  .blog-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2272,7 +2273,8 @@ h4.package {
     width: 350px;
     height: 300px;
   }
-  .blog-block {
+
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2307,14 +2309,14 @@ h4.package {
     left: 382px;
     top: -150px;
   }
-  .portfolio-block {
+  .blog-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 577px;
     top: 89px;
   }
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2379,14 +2381,14 @@ h4.package {
     left: 382px;
     top: -150px;
   }
-  .portfolio-block {
+  .blog-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 577px;
     top: 89px;
   }
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2491,7 +2493,7 @@ h4.package {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   #lionhero {
     height: 100vh;
     position: fixed;
