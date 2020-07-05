@@ -68,6 +68,7 @@
     strings: [
       "Full Stack Developer",
       "Project Manager",
+      "Event Producer",
       "Stage Performer",
       "Crypto Trader",
       "Pinball Wizard",
