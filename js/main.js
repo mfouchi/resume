@@ -46,14 +46,14 @@
     });
   });
 
-  $(".portfolio-block, .menu-item").on("click", function () {
-    //Portfolio masonry
-    var $container = $("#portfolio-container");
+  $(".producer-block, .menu-item").on("click", function () {
+    //producer masonry
+    var $container = $("#producer-container");
     $container.isotope({
       masonry: {
-        columnWidth: ".portfolio-item",
+        columnWidth: ".producer-item",
       },
-      itemSelector: ".portfolio-item",
+      itemSelector: ".producer-item",
     });
     $("#filters").on("click", "li", function () {
       $("#filters li").removeClass("active");
@@ -89,7 +89,7 @@
     });
   });
 
-  //Portfolio Modal
+  //producer Modal
   $(document).on("click", ".open-project", function () {
     var projectUrl = $(this).attr("href");
     $(".inline-menu-container").removeClass("showx");
@@ -99,7 +99,7 @@
     return false;
   });
 
-  //Blog post Modal
+  //performer post Modal
   $(".open-post").on("click", function () {
     var postUrl = $(this).attr("href");
     $(".inline-menu-container").removeClass("showx");
@@ -118,26 +118,26 @@
     $(".inline-menu-container").addClass("showx");
     $(".inline-menu-container.style2").addClass("dark");
   });
-  //On Click Open About/Resume Block
-  $(".about-block, .menu-item.about").on("click", function () {
+  //On Click Open developer/Resume Block
+  $(".developer-block, .menu-item.developer").on("click", function () {
     $(".content-blocks").removeClass("showx");
-    $(".content-blocks.about").addClass("showx");
+    $(".content-blocks.developer").addClass("showx");
     $(".menu-item").removeClass("active");
-    $(".menu-item.about").addClass("active");
+    $(".menu-item.developer").addClass("active");
   });
-  //On Click Open Portfolio Block
-  $(".portfolio-block, .menu-item.portfolio").on("click", function () {
+  //On Click Open producer Block
+  $(".producer-block, .menu-item.producer").on("click", function () {
     $(".content-blocks").removeClass("showx");
-    $(".content-blocks.portfolio").addClass("showx");
+    $(".content-blocks.producer").addClass("showx");
     $(".menu-item").removeClass("active");
-    $(".menu-item.portfolio").addClass("active");
+    $(".menu-item.producer").addClass("active");
   });
-  //On Click Open Blog Block
-  $(".blog-block, .menu-item.blog").on("click", function () {
+  //On Click Open performer Block
+  $(".performer-block, .menu-item.performer").on("click", function () {
     $(".content-blocks").removeClass("showx");
-    $(".content-blocks.blog").addClass("showx");
+    $(".content-blocks.performer").addClass("showx");
     $(".menu-item").removeClass("active");
-    $(".menu-item.blog").addClass("active");
+    $(".menu-item.performer").addClass("active");
   });
   //On Click Open Contact Block
   $(".contact-block, .menu-item.contact").on("click", function () {
@@ -156,7 +156,7 @@
     $(".inline-menu-container").removeClass("showx");
     $(".menu-item").removeClass("active");
   });
-  //On Click Close Blog Post And Project Details
+  //On Click Close performer Post And Project Details
   $("#close-pop").on("click", function () {
     $(".content-blocks.pop").removeClass("showx");
     $(".sidebar-menu").removeClass("hidex");
