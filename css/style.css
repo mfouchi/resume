@@ -2246,7 +2246,7 @@ h4.package {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1090px) and (max-width: 1280px) {
   .name-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
@@ -2294,7 +2294,7 @@ h4.package {
   }
 }
 
-@media (min-width: 981px) and (max-width: 1024px) {
+@media (min-width: 981px) and (max-width: 1089px) {
   .name-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
@@ -2320,8 +2320,12 @@ h4.package {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
-    left: 772px;
-    top: 428px;
+    /* left: 772px;
+    top: 428px; */
+    left: 753px;
+    top: 335px;
+    width: 350px;
+    height: 300px;
   }
   .contact-block {
     -ms-transform: rotate(-34deg);
@@ -2366,7 +2370,7 @@ h4.package {
   }
 }
 
-@media (min-width: 768px) and (max-width: 980px) {
+@media (min-width: 768px) and (max-width: 990px) {
   .name-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
@@ -2392,15 +2396,15 @@ h4.package {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
-    left: 336px;
-    top: 548px;
+    left: 356px;
+    top: 398px;
   }
   .contact-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 9px;
-    top: 780px;
+    top: 520px;
   }
   .project {
     width: 50%;
