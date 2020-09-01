@@ -1620,6 +1620,10 @@ h4.package {
   margin: 30px 0;
 }
 
+.project-description span {
+  color: brown;
+}
+
 .project-media img {
   margin-bottom: 30px;
 }
@@ -2177,7 +2181,7 @@ h4.package {
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 1092px;
-    top: 518px;
+    top: 418px;
   }
   .contact-block {
     -ms-transform: rotate(-34deg);
@@ -2227,7 +2231,7 @@ h4.package {
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
     left: 772px;
-    top: 428px;
+    top: 328px;
   }
   .contact-block {
     -ms-transform: rotate(-34deg);
@@ -2363,7 +2367,7 @@ h4.package {
     width: 69%;
   }
   .inline-menu li {
-    padding: 0 10px;
+    padding: 0 5px;
   }
   .content {
     padding: 120px 50px 50px;
@@ -2748,8 +2752,13 @@ h4.package {
 
 @media (max-width: 375px) {
   .home {
-    position: relative;
+    //position: relative;
   }
+  .inline-menu li {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
   .menu4 .home {
     height: 100vh;
   }
@@ -2769,11 +2778,13 @@ h4.package {
     margin-right: 0;
   }
   .inline-menu li {
-    padding: 0 8px;
+    font-size: 12px;
+    padding: 0 5px;
   }
   .menu4 .inline-menu li {
     padding: 0 5px;
   }
+
   .filters ul li {
     margin-left: 5px;
   }
