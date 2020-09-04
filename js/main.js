@@ -70,7 +70,6 @@
       "Project Manager",
       "Event Producer",
       "Stage Performer",
-      "Crypto Trader",
       "Pinball Wizard",
     ],
     typeSpeed: -50,
@@ -124,6 +123,11 @@
     $(".content-blocks.developer").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.developer").addClass("active");
+    var videos = document.querySelectorAll("iframe");
+    Array.prototype.forEach.call(videos, function (video) {
+      var src = video.src;
+      video.src = src;
+    });
   });
   //On Click Open producer Block
   $(".producer-block, .menu-item.producer").on("click", function () {
@@ -131,6 +135,9 @@
     $(".content-blocks.producer").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.producer").addClass("active");
+    var video = document.getElementById("stageReel");
+    var src = video.src;
+    video.src = src;
   });
   //On Click Open performer Block
   $(".performer-block, .menu-item.performer").on("click", function () {
@@ -138,6 +145,10 @@
     $(".content-blocks.performer").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.performer").addClass("active");
+
+    var video = document.getElementById("eventReel");
+    var src = video.src;
+    video.src = src;
   });
   //On Click Open Contact Block
   $(".contact-block, .menu-item.contact").on("click", function () {
@@ -145,6 +156,11 @@
     $(".content-blocks.contact").addClass("showx");
     $(".menu-item").removeClass("active");
     $(".menu-item.contact").addClass("active");
+    var videos = document.querySelectorAll("iframe");
+    Array.prototype.forEach.call(videos, function (video) {
+      var src = video.src;
+      video.src = src;
+    });
   });
 
   //On Click Close Blocks
@@ -155,6 +171,11 @@
     $(".menu-blocks").removeClass("hidex");
     $(".inline-menu-container").removeClass("showx");
     $(".menu-item").removeClass("active");
+    var videos = document.querySelectorAll("iframe");
+    Array.prototype.forEach.call(videos, function (video) {
+      var src = video.src;
+      video.src = src;
+    });
   });
   //On Click Close performer Post And Project Details
   $("#close-pop").on("click", function () {
